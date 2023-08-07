@@ -73,7 +73,7 @@ export default {
       axios.post('https://64af2687c85640541d4e2f97.mockapi.io/pedidos', order)
         .then(response => {
           alert('Pedido guardado', response.data);
-          // Aquí puedes realizar alguna acción adicional si es necesario
+          
         })
         .catch(error => {
           console.error('Error al guardar el pedido:', error);
