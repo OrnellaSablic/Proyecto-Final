@@ -1,7 +1,6 @@
 
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import store from './store';
 import HomePage from './views/HomePage.vue';
 import RegisterForm from './views/RegisterForm.vue';
 import LoginForm from './views/LoginForm.vue';
