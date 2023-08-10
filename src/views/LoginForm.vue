@@ -45,12 +45,6 @@ export default {
         .catch(error => {
           alert('Error de inicio de sesión:', error);
           console.log(error)
-      
-          if (error === 'Credenciales inválidas') {
-          
-          } else {
-            
-          }
         });
     }
   }
